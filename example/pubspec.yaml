@@ -88,5 +88,17 @@ flutter:
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
+  fonts:
+    - family: Urbanist
+      fonts:
+        - asset: static/fonts/urbanist/Urbanist-Light.ttf
+        - asset: static/fonts/urbanist/Urbanist-Regular.ttf
+          weight: 400
+        - asset: static/fonts/urbanist/Urbanist-Medium.ttf
+          weight: 500
+        - asset: static/fonts/urbanist/Urbanist-SemiBold.ttf
+          weight: 600
+        - asset: static/fonts/urbanist/Urbanist-Bold.ttf
+          weight: 700
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
