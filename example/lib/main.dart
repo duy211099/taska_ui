@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         home: const Scaffold(
           body: Center(
             child: TaskaButton(
-              title: 'a',
+              title: 'Hello Button',
             ),
           ),
         ));
