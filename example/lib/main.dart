@@ -14,13 +14,25 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(
-          fontFamily: 'Urbanist',
           primarySwatch: Colors.blue,
         ),
-        home: const Scaffold(
-          body: Center(
-            child: TaskaButton(
-              title: 'Hello Button',
+        home: Scaffold(
+          body: Padding(
+            padding: EdgeInsets.symmetric(vertical: 50, horizontal: 10),
+            child: Column(
+              children: [
+                TaskaInputField(
+                  hintText: 'Placeholder',
+                  autofocus: true,
+                  onChanged: ((value) => print(value)),
+                  icon: TaskaIcons.user,
+                ),
+                SizedBox(height: 10),
+                TaskaInputField(
+                  hintText: 'Placeholder',
+                  icon: TaskaIcons.profile,
+                ),
+              ],
             ),
           ),
         ));

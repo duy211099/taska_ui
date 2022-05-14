@@ -9,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_svg: ^1.0.3
 
 dev_dependencies:
   flutter_test:
@@ -18,12 +19,12 @@ dev_dependencies:
 
 flutter:
 
-  # uses-material-design: true
+  uses-material-design: true
 
   # # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - static/images/
-  #   - static/images/svg/
+  assets:
+    - icons/bold/
+    # - static/images/svg/
 
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
@@ -33,12 +34,12 @@ flutter:
   fonts:
     - family: Urbanist
       fonts:
-        - asset: static/fonts/urbanist/Urbanist-Light.ttf
-        - asset: static/fonts/urbanist/Urbanist-Regular.ttf
+        - asset: fonts/urbanist/Urbanist-Light.ttf
+        - asset: fonts/urbanist/Urbanist-Regular.ttf
           weight: 400
-        - asset: static/fonts/urbanist/Urbanist-Medium.ttf
+        - asset: fonts/urbanist/Urbanist-Medium.ttf
           weight: 500
-        - asset: static/fonts/urbanist/Urbanist-SemiBold.ttf
+        - asset: fonts/urbanist/Urbanist-SemiBold.ttf
           weight: 600
-        - asset: static/fonts/urbanist/Urbanist-Bold.ttf
+        - asset: fonts/urbanist/Urbanist-Bold.ttf
           weight: 700
