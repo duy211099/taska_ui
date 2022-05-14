@@ -47,9 +47,10 @@ class _TaskaInputFieldState extends State<TaskaInputField> {
           prefixIcon: widget.icon != null
               ? Padding(
                   padding: const EdgeInsets.symmetric(vertical: 18.0),
-                  child: SvgPicture.asset(widget.icon!,
-                      color: _isFocused ? kcPrimaryColor : kcGreyScale,
-                      fit: BoxFit.fitHeight),
+                  child: SvgPicture.asset(
+                    'packages/taska_ui/assets/icons/${widget.icon}.svg',
+                    color: _isFocused ? kcPrimaryColor : kcGreyScale,
+                  ),
                 )
               : null,
           filled: true,

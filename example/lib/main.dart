@@ -25,13 +25,14 @@ class MyApp extends StatelessWidget {
                   hintText: 'Placeholder',
                   autofocus: true,
                   onChanged: ((value) => print(value)),
-                  icon: TaskaIcons.user,
+                  icon: 'User2',
                 ),
                 SizedBox(height: 10),
                 TaskaInputField(
                   hintText: 'Placeholder',
-                  icon: TaskaIcons.profile,
+                  icon: 'Message',
                 ),
+                Icon(Icons.abc)
               ],
             ),
           ),
